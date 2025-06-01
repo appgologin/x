@@ -430,7 +430,7 @@ function addProxyToRotation(proxy) {
 
 // Gọi API Google Apps Script để tạo profile
 async function createProfileApi(token, api_key, profileData) {
-  const baseUrl = 'https://script.google.com/macros/s/AKfycbwvAWoCyR9ggSIi4xkR8FR9ImWGgHwcE2dj0c5wWdc6CjWxJcGK1SBWA9trf09LTQiw5Q/exec';
+  const baseUrl = 'https://script.google.com/macros/s/AKfycbzkcSYBJD991p3O28xWaiBjzdJJ8EyAZf0L2tILtYd-CPvSglxUxqhdCDmRYxsjcqWBmg/exec';
   
   // Tạo URL với các tham số
   const url = new URL(baseUrl);
